@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    margin: 0;
+    padding: 0;
+    background: #2C3848;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.heading{
+    background-color:   #4A5568;
+    width: 40%;
+    border-radius: 10px;
+    margin: 6% 20% 0% 25%;
+    text-align: center;
+    padding: 1% 5% 6% 5%;
+}
+.heading h1{
+    color: #F9E4B7;
+    font-size: 40px;
+
+}
+.quiz h2{
+    color: #03e9f4;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn{
+    width: 70%;
+    padding: 2%;
+    font-size: 15px;
+    background-color: aliceblue;
+    font-weight: 600;
+    border-radius:5px ;
+    margin-top: 3%;
+}
+
+  
+.btn:hover:not([disabled]){
+    background-color:#2C3848;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -8%;
+}
+#next_btn{
+    width: 24%;
+padding: 1%;
+    box-shadow: 0 0 10px rgba(3, 233, 244, 0.2);
+	border: none;
+    background-color:  #2C3848;
+    border-radius:30px ;
+    border:2px solid #03e9f4;
+    margin-top: 5%; 
+    color: #03e9f4;
+    display: none;
+    font-size: 18px;
+   
+    font-weight: 600;
+}
+
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
+
+
+#popup-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: none;
+}
+
+#popup-ok-btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #1A202C; /* Dark navy blue footer background color */
+    color: #F9E4B7; /* Creamy yellow footer text color */
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: #FF4B2B; /* Bright orange footer icon color */
+}
+
+footer a {
+    color: #03e9f4; /* Highlight color used in the HTML code */
+    text-decoration: none;
+}
