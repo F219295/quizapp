@@ -17,7 +17,7 @@
         background-color: #4A5568;
         width: 85%;
         border-radius: 10px;
-        margin: 20% 0% 0% 6%;
+        margin: 18% 0% 0% 6%;
         text-align: center;
         padding: 8% 3% 14% 2%;
     }
@@ -63,7 +63,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: -4%;
+    margin-bottom: -8%;
 }
 }
 
@@ -120,7 +120,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: -4%;
+    margin-bottom: -8%;
 }
 
 
